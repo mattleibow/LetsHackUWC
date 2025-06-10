@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="LetsHackUWCMauiApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:LetsHackUWCMauiApp"
+    xmlns:pages="clr-namespace:LetsHackUWCMauiApp.Pages"
+    Title="LetsHackUWCMauiApp">
+
+    <ShellContent
+        Title="Hackathons"
+        ContentTemplate="{DataTemplate pages:HackathonsPage}"
+        Route="hackathons" />
+
+</Shell>
